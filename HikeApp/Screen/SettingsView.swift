@@ -60,6 +60,23 @@ struct SettingsView: View {
             // MARK: - Section Icons
  
             // MARK: - Section About
+            
+            Section(
+                header: Text("ABOUT THE APP"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All rights reserved.")
+                    Spacer()
+                }
+                    .padding(.vertical, 8)
+            ) {
+                // 1. Basic label content
+                //LabeledContent("Application", value: "Hike")
+                
+                // 2. Advanced label content
+
+
+            }//: Section
         } //: List
     }
 }
